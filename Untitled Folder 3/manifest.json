@@ -1,0 +1,14 @@
+{
+	"manifest_version" : 2,
+	
+	"name" : "Oh Yeah Joe Rules !",
+	"description": "This dude that works with mined minds is a really cool coder and super awesome as well f yeah!.",
+	"version": "1.0",
+	"permissions": [ "contentSettings", "tabs" ],
+	"browser_action": {
+		
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Woof Here Please"
+	}
+}

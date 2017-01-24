@@ -1,0 +1,16 @@
+{
+	"manifest_version" : 2,
+	
+	"name" : "What devices are you signed in to joe?",
+	"description": "Joe will tell you waht all devices you are currently signed into.",
+	"version": "1.0",
+	"permissions": ["signedInDevices" ],
+	"browser_action": {
+		
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Woof Woof if you wanna know what you are singed into."
+	},
+	  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+
+}
